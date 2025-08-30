@@ -42,21 +42,23 @@
    - Bob → `GRP_AWS_ReadOnly`
 
 📸 *Deliverables:*  
-- Screenshot: Users list  
-- Screenshot: Groups list  
-- Screenshot: Group membership
+- Screenshot: <img width="1304" height="614" alt="image" src="https://github.com/user-attachments/assets/d25a52ce-9515-4067-a93a-596de7e7c72d" />
+
+- Screenshot: <img width="1158" height="596" alt="image" src="https://github.com/user-attachments/assets/a21c6096-741f-429d-a860-00eb3596c36d" />
+
+- Screenshot: <img width="1208" height="630" alt="image" src="https://github.com/user-attachments/assets/5c485751-0193-4c52-87e1-1bf883cbabc8" />
+<img width="1204" height="655" alt="image" src="https://github.com/user-attachments/assets/a4322801-9952-4808-bcc3-777760dbe6a7" />
+
+
 
 ---
 
 ### 3) Authentication Policies (MFA/Conditional)
 1. Create two policies:
-   - `POL_Admins` → **MFA required** (Okta Verify/TOTP/WebAuthn)
-   - `POL_ReadOnly` → single-factor (for demo), or softer rules
-2. Do **not** bind to apps yet (we’ll attach in Week 2 to the AWS app).
+   - `POL_Admins` → <img width="1241" height="686" alt="image" src="https://github.com/user-attachments/assets/0f489aa3-bd41-4762-b679-dafc8ac36817" />
 
-📸 *Deliverables:*  
-- Screenshot: Policy list  
-- Screenshot: MFA factor settings and rule conditions
+   - `POL_ReadOnly` → <img width="1235" height="723" alt="image" src="https://github.com/user-attachments/assets/58465104-80ee-4ea0-9cd2-096d2e627255" />
+
 
 ---
 
@@ -91,13 +93,5 @@
 | Token/Artifact  | SAML Assertion                 | ID Token & Access Token        |
 | Typical Targets | AWS console, legacy web apps   | SPA/mobile/API-backed services |
 
-📄 *Deliverable:* Add your own mini-sequence diagrams for both flows (can be hand-drawn or made in draw.io).
+<img width="2540" height="1740" alt="image" src="https://github.com/user-attachments/assets/4bafd765-f302-404e-80c5-c18490860a90" />
 
----
-
-## 🧪 Acceptance Checklist (Week 1 Done)
-- [ ] Okta org created and accessible
-- [ ] Users (Alice/Bob) and groups created
-- [ ] Policies drafted (MFA for Admins; lighter for ReadOnly)
-- [ ] SAML vs OIDC notes + simple diagrams
-- [ ] All screenshots saved to repo/folder
