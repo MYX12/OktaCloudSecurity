@@ -54,6 +54,7 @@
           --saml-metadata-document file://okta_metadata.xml
 
 📸 *Deliverable:* Screenshot of Provider ARN.
+<img width="1521" height="713" alt="image" src="https://github.com/user-attachments/assets/ed54b8e4-e715-422e-9b16-167aef67fb0f" />
 
 ---
 
@@ -87,6 +88,7 @@
         }
 
 📸 *Deliverable:* Screenshot of IAM Roles + copy ARNs.
+<img width="1176" height="349" alt="image" src="https://github.com/user-attachments/assets/3d995dd9-3810-4d99-ab78-534c9e62b00c" />
 
 ---
 
